@@ -191,7 +191,28 @@ def number_to_short_month_name(num):
     
     return(month)
 
+def test_volume_of_cube(self):
+    cube_result = pow(4, 3)
+    self.assertEqual(64, cube_result)
+    pass
 
+  #Given a String, return the String reversed
+  def test_reverse_string(self):
+    string_reversed = "Hello"[::-1]
+    self.assertEqual("olleH", string_reversed)
+    pass
+
+  #Given a value in farenheit, convert this into celsius.
+  def test_fahrenheit_to_celsius(self):
+    multiplied_celsius = multiply(22, 1.8)
+    converted_celsius = add(39.6, 32 )
+    self.assertEqual(71.6, converted_celsius)
+    pass 
+
+
+if __name__ == '__main__':
+    unittest.main()
+                         
                                                 
 
             
